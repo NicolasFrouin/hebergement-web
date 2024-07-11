@@ -15,6 +15,9 @@
   - SSL
     - Let's Encrypt
     - Certbot (2x per day)
+- Samba
+  - `\\209.38.208.57\partage`
+  - `it-connect` : `it-connect`
 
 ## App Repository
 
