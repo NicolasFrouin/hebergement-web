@@ -22,6 +22,8 @@
   - SSL
     - Let's Encrypt
     - Certbot (2x per day)
+- Fail2Ban
+  - Nginx
 - Samba
   - `\\209.38.208.57\partage`
   - `it-connect` : `it-connect`
@@ -43,8 +45,3 @@
   - [Endlessh](https://github.com/linuxserver/docker-endlessh)
 - [Install Samba](https://www.it-connect.fr/serveur-de-fichiers-debian-installer-et-configurer-samba-4/)
 
-## Todo
-
-- [ ] Fail2ban
-  - [ ] Nginx
-  - [ ] Adminer
