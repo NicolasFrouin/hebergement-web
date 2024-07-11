@@ -34,6 +34,7 @@
 - [Install Docker](https://docs.docker.com/engine/install/debian/)
 - Docker containers
   - [Endlessh](https://github.com/linuxserver/docker-endlessh)
+- [Install Samba](https://www.it-connect.fr/serveur-de-fichiers-debian-installer-et-configurer-samba-4/)
 
 ## Todo
 
