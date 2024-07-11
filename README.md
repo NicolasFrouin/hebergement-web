@@ -9,7 +9,14 @@
 - Firewall
   - UFW
     - Default: Deny
-    - Allow: 2003, 80, 443
+    - Allow:
+      - 22/tcp
+      - 2003/tcp
+      - 80/tcp
+      - 443
+      - Nginx Full
+      - 445
+      - 139
 - Nginx
   - Reverse proxy
   - SSL
