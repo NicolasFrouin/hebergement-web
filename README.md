@@ -1,5 +1,20 @@
 # Hébergement web
 
+## Configs
+
+- SSH
+  - Port: 2003
+  - Password auth: No
+  - Root login: No
+- Firewall
+  - UFW
+    - Default: Deny
+    - Allow: 2003, 80, 443
+- Nginx
+  - SSL
+    - Let's Encrypt
+    - Certbot (2x per day)
+
 ## Tutos for Debian
 
 - [Change SSH port](https://www.cyberciti.biz/faq/howto-change-ssh-port-on-linux-or-unix-server/)
@@ -11,3 +26,11 @@
 - [Install Docker](https://docs.docker.com/engine/install/debian/)
 - Docker containers
   - [Endlessh](https://github.com/linuxserver/docker-endlessh)
+
+## Todo
+
+- [ ] Fail2ban
+  - [ ] Nginx
+  - [ ] Adminer
+- [ ] Reverse proxy
+  - [ ] Docker containers
