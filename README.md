@@ -2,6 +2,11 @@
 
 ## Configs
 
+- Access
+  - IP : 209.38.208.57
+  - Domain
+    - [App](https://host.frouin.eu) _(Une mini todo-list en Nuxt avec SSR)_
+    - [Adminer](https://host.frouin.eu/adminer)
 - SSH
   - Port: 2003
   - Password auth: No
